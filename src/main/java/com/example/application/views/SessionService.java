@@ -9,24 +9,12 @@ import java.util.UUID;
 
 @SpringComponent
 @VaadinSessionScope
-public class Session {
+public class SessionService {
     private String uid = UUID.randomUUID().toString();
 
-    private Usuario usuario;
-
-    public String getUid() {
-
-        return uid;
-    }
-
-    public void setUid(String uid) {
-        this.uid = uid;
-    }
+    private Usuario usuario = null;
 
     public Usuario getUsuario() {
-        if (usuario == null) {
-            UI.getCurrent().getUI().ifPresent(ui -> ui.navigate("/"));
-        }
         return usuario;
     }
 

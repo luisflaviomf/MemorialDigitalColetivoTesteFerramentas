@@ -3,8 +3,10 @@ package com.example.application.views;
 
 import com.example.application.components.appnav.AppNav;
 import com.example.application.components.appnav.AppNavItem;
-import com.example.application.views.about.AboutView;
-import com.example.application.views.helloworld.HelloWorldView;
+import com.example.application.entity.Usuario;
+import com.example.application.views.grupos.GruposView;
+import com.example.application.views.login.LoginView;
+import com.example.application.views.perfil.PerfilView;
 import com.vaadin.flow.component.applayout.AppLayout;
 import com.vaadin.flow.component.applayout.DrawerToggle;
 import com.vaadin.flow.component.html.Footer;
@@ -14,6 +16,7 @@ import com.vaadin.flow.component.html.Header;
 import com.vaadin.flow.component.orderedlayout.Scroller;
 import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.theme.lumo.LumoUtility;
+import org.springframework.beans.factory.annotation.Autowired;
 
 /**
  * The main view is a top-level placeholder for other views.
@@ -22,10 +25,13 @@ public class MainLayout extends AppLayout {
 
     private H2 viewTitle;
 
-    public MainLayout() {
+    private Usuario usuario;
+
+    public MainLayout(@Autowired SessionService service) {
         setPrimarySection(Section.DRAWER);
         addDrawerContent();
         addHeaderContent();
+        System.out.println(service.getText());
     }
 
     private void addHeaderContent() {
@@ -39,7 +45,7 @@ public class MainLayout extends AppLayout {
     }
 
     private void addDrawerContent() {
-        H1 appName = new H1("My App");
+        H1 appName = new H1("Coisas a Fazer");
         appName.addClassNames(LumoUtility.FontSize.LARGE, LumoUtility.Margin.NONE);
         Header header = new Header(appName);
 
@@ -53,8 +59,9 @@ public class MainLayout extends AppLayout {
         // For documentation, visit https://github.com/vaadin/vcf-nav#readme
         AppNav nav = new AppNav();
 
-        nav.addItem(new AppNavItem("Hello World", HelloWorldView.class, "la la-globe"));
-        nav.addItem(new AppNavItem("About", AboutView.class, "la la-file"));
+        nav.addItem(new AppNavItem("Grupos de atividades", GruposView.class, "la la-folder"));
+        nav.addItem(new AppNavItem("Perfil", PerfilView.class, "la la-user"));
+        nav.addItem(new AppNavItem("Login", LoginView.class, "la la-lock"));
 
         return nav;
     }

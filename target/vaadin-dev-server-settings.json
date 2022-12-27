@@ -1,0 +1,14 @@
+{
+  "frontendFolder": "C:/Users/Luis/Documents/my-app/frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "C:/Users/Luis/Documents/my-app/target/flow-frontend",
+  "staticOutput": "C:/Users/Luis/Documents/my-app/target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "frontendBundleOutput": "C:\\Users\\Luis\\Documents\\my-app\\target\\classes\\META-INF\\VAADIN\\webapp",
+  "addonFrontendFolder": "target/flow-frontend/",
+  "themeName": "myapp",
+  "clientServiceWorkerSource": "C:\\Users\\Luis\\Documents\\my-app\\target\\sw.ts",
+  "pwaEnabled": true,
+  "offlineEnabled": true,
+  "offlinePath": "'.'"
+}
