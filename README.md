@@ -12,7 +12,7 @@
 
 
 ## **Objectives:**
-Collective digital memorial built using Vaadin. The aim of this project is to thoroughly test the capabilities of the Vaadin framework in developing a robust and user-friendly system. Leveraging Vaadin's server-centric architecture and extensive set of UI components, the digital memorial aims to provide an interactive and visually engaging platform for collective remembrance. By utilizing Vaadin's tools for automatic server-client communication and seamless data binding, this project serves as a practical exploration of how well Vaadin supports the implementation of a complex and emotionally significant application like a digital memorial.
+Testing Vaadin's capability to support a collective digital memorial application. The aim of this project is to thoroughly test the capabilities of the Vaadin framework in developing a robust and user-friendly system. Leveraging Vaadin's server-centric architecture and extensive set of UI components, the digital memorial aims to provide an interactive and visually engaging platform for collective remembrance. By utilizing Vaadin's tools for automatic server-client communication and seamless data binding, this project serves as a practical exploration of how well Vaadin supports the implementation of a complex and emotionally significant application like a digital memorial.
 
 This repository serves as a testing ground to assess Vaadin's suitability for building meaningful and responsive web applications. By sharing this project, I hope to contribute valuable insights into the framework's strengths and potential areas of improvement, offering developers a glimpse into the practical application of Vaadin in creating a collective digital space for remembrance and reflection.
 
