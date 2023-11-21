@@ -1,47 +1,18 @@
-# MemorialDigitalColetivoTesteFerramentas
+# Collective Digital Memorial - Vaadin Tools Test
 
-This project can be used as a starting point to create your own Vaadin application with Spring Boot.
-It contains all the necessary configuration and some placeholder files to get you started.
+- **Source**:
+  - Vaadin ([link](https://vaadin.com/));
 
-## Running the application
+## **Context:**
+[Vaadin](https://vaadin.com/) is a Java framework designed for building modern, interactive web applications with a focus on a server-centric architecture. It simplifies UI development by offering a wide range of pre-built components, allowing developers to create dynamic interfaces without extensive knowledge of client-side technologies. With features like automatic server-client communication and data binding, Vaadin enhances productivity, making it an efficient tool for Java developers to create visually appealing web applications.
 
-The project is a standard Maven project. To run it from the command line,
-type `mvnw` (Windows), or `./mvnw` (Mac & Linux), then open
-http://localhost:8080 in your browser.
+[Digital Memorial](https://sol.sbc.org.br/journals/index.php/jis/article/view/2567) A digital memorial is an online platform dedicated to preserving and sharing memories, tributes, and information about individuals, events, or specific themes. Serving as a virtual space for reminiscence, a digital memorial can encompass a variety of media, such as photos, videos, testimonials, and documents, providing a multifaceted representation of the person or subject at hand. These platforms offer an interactive means for individuals to contribute their own memories, fostering meaningful and participatory connections in a digital environment designed to honor and preserve history.
 
-You can also import the project to your IDE of choice as you would with any
-Maven project. Read more on [how to import Vaadin projects to different 
-IDEs](https://vaadin.com/docs/latest/guide/step-by-step/importing) (Eclipse, IntelliJ IDEA, NetBeans, and VS Code).
+[Collective Digital Memorial](https://sol.sbc.org.br/journals/index.php/jis/article/view/2567) When, in a digital memorial, the honored deceased people share a common bond. They can still be either a dedicated or an integrated memorial system. For example, the Memorial for the Coronavirus Victims in Brazil is a collective digital memorial integrated with the social network Facebook, and relíquia.rum is integrated with Instagram. On the other hand, “Inumeráveis” (2020) is a dedicated collective digital memorial, as it is presented on a website dedicated to the memorial.
 
-## Deploying to Production
 
-To create a production build, call `mvnw clean package -Pproduction` (Windows),
-or `./mvnw clean package -Pproduction` (Mac & Linux).
-This will build a JAR file with all the dependencies and front-end resources,
-ready to be deployed. The file can be found in the `target` folder after the build completes.
+## **Objectives:**
+Collective digital memorial built using Vaadin. The aim of this project is to thoroughly test the capabilities of the Vaadin framework in developing a robust and user-friendly system. Leveraging Vaadin's server-centric architecture and extensive set of UI components, the digital memorial aims to provide an interactive and visually engaging platform for collective remembrance. By utilizing Vaadin's tools for automatic server-client communication and seamless data binding, this project serves as a practical exploration of how well Vaadin supports the implementation of a complex and emotionally significant application like a digital memorial.
 
-Once the JAR file is built, you can run it using
-`java -jar target/myapp-1.0-SNAPSHOT.jar`
+This repository serves as a testing ground to assess Vaadin's suitability for building meaningful and responsive web applications. By sharing this project, I hope to contribute valuable insights into the framework's strengths and potential areas of improvement, offering developers a glimpse into the practical application of Vaadin in creating a collective digital space for remembrance and reflection.
 
-## Project structure
-
-- `MainLayout.java` in `src/main/java` contains the navigation setup (i.e., the
-  side/top bar and the main menu). This setup uses
-  [App Layout](https://vaadin.com/docs/components/app-layout).
-- `views` package in `src/main/java` contains the server-side Java views of your application.
-- `views` folder in `frontend/` contains the client-side JavaScript views of your application.
-- `themes` folder in `frontend/` contains the custom CSS styles.
-
-## Useful links
-
-- Read the documentation at [vaadin.com/docs](https://vaadin.com/docs).
-- Follow the tutorials at [vaadin.com/tutorials](https://vaadin.com/tutorials).
-- Watch training videos and get certified at [vaadin.com/learn/training](https://vaadin.com/learn/training).
-- Create new projects at [start.vaadin.com](https://start.vaadin.com/).
-- Search UI components and their usage examples at [vaadin.com/components](https://vaadin.com/components).
-- View use case applications that demonstrate Vaadin capabilities at [vaadin.com/examples-and-demos](https://vaadin.com/examples-and-demos).
-- Build any UI without custom CSS by discovering Vaadin's set of [CSS utility classes](https://vaadin.com/docs/styling/lumo/utility-classes). 
-- Find a collection of solutions to common use cases at [cookbook.vaadin.com](https://cookbook.vaadin.com/).
-- Find add-ons at [vaadin.com/directory](https://vaadin.com/directory).
-- Ask questions on [Stack Overflow](https://stackoverflow.com/questions/tagged/vaadin) or join our [Discord channel](https://discord.gg/MYFq5RTbBn).
-- Report issues, create pull requests in [GitHub](https://github.com/vaadin).
